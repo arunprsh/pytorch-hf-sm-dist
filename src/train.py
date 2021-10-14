@@ -38,8 +38,8 @@ if __name__ == '__main__':
     )
 
     # Load train and test datasets
-    train_dataset = load_from_disk(args.training_dir)
-    test_dataset = load_from_disk(args.test_dir)
+    train_dataset = load_from_disk(args.training_dir, keep_in_memory=True)
+    test_dataset = load_from_disk(args.test_dir, keep_in_memory=True)
 
     logger.info(f'[Loaded train_dataset length is: {len(train_dataset)}]')
     logger.info(f'[Loaded test_dataset length is: {len(test_dataset)}]')
