@@ -1,4 +1,6 @@
-# Distributed Training options on Amazon SageMaker with PyTorch + HuggingFace
+# Re:Invent 2021 - Deep learning applications with PyTorch 
+
+### Distributed Training options on Amazon SageMaker with PyTorch + HuggingFace
 
 
 * Training with a single node. 
