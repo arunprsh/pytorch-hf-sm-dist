@@ -3,10 +3,10 @@
 ### Distributed Training options on Amazon SageMaker with PyTorch + HuggingFace
 
 
-* Training with a single node. 
-* Distributed training with multiple nodes.
-* Distributed training with **Data parallelism**.
-* Distributed training with **Model Parallelism**.
+* Training with a Single Node cluster using Multiple GPUs.
+* Distributed training with Multi-Node cluster using Multiple GPUs.
+* Distributed training with Multi-Node cluster using Multiple GPUs + **Data parallelism**.
+* Distributed training with Multi-Node cluster using Multiple GPUs + **Model Parallelism**.
 
 
 When training a model on a large amount of data, machine learning practitioners often turn to distributed training to reduce the time to train. In some cases, where time is of the essence, the business requirement is to finish training as quickly as possible or at least within a constrained time period. Then, distributed training is scaled to use a cluster of multiple nodes — not just multiple GPUs in a computing instance, but multiple instances with multiple GPUs.<br> <br>
